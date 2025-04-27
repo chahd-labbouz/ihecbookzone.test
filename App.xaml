@@ -1,0 +1,13 @@
+<Application x:Class="IHECBookzone.Desktop.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:IHECBookzone.Desktop"
+             xmlns:converters="clr-namespace:IHECBookzone.Desktop.Converters">
+    <Application.Resources>
+        <converters:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+        <converters:BoolToStringConverter x:Key="BoolToStringConverter"/>
+        <converters:BoolToColorConverter x:Key="BoolToColorConverter"/>
+        <converters:IntToVisibilityConverter x:Key="IntToVisibilityConverter"/>
+        <converters:InitialsConverter x:Key="InitialsConverter"/>
+    </Application.Resources>
+</Application> 

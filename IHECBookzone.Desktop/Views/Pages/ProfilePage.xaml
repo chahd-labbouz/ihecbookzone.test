@@ -1,0 +1,314 @@
+<Page x:Class="IHECBookzone.Desktop.Views.Pages.ProfilePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:IHECBookzone.Desktop.Views.Pages"
+      xmlns:converters="clr-namespace:IHECBookzone.Desktop.Converters"
+      mc:Ignorable="d" 
+      Title="ProfilePage">
+
+    <Page.Resources>
+        <converters:ValidationErrorConverter x:Key="ValidationErrorConverter"/>
+        <converters:ValidationErrorVisibilityConverter x:Key="ValidationErrorVisibilityConverter"/>
+        <DropShadowEffect x:Key="CardShadow" BlurRadius="10" Direction="270" Opacity="0.15" ShadowDepth="3"/>
+        
+        <Style x:Key="ErrorTextBlockStyle" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#dc3545"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Margin" Value="0,5,0,0"/>
+        </Style>
+        
+        <Style x:Key="EditableTextBoxStyle" TargetType="TextBox">
+            <Setter Property="IsEnabled" Value="{Binding IsEditing}"/>
+            <Setter Property="Padding" Value="10,8"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Style.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="4"/>
+                </Style>
+            </Style.Resources>
+        </Style>
+        
+        <Style x:Key="EditableComboBoxStyle" TargetType="ComboBox">
+            <Setter Property="IsEnabled" Value="{Binding IsEditing}"/>
+            <Setter Property="Padding" Value="10,8"/>
+            <Setter Property="FontSize" Value="14"/>
+        </Style>
+    </Page.Resources>
+
+    <Grid Background="#f8f9fa">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <!-- Header -->
+        <Border Grid.Row="0" Background="#e5deff" Padding="40,30">
+            <Grid>
+                <StackPanel>
+                    <TextBlock Text="My Profile" FontSize="28" FontWeight="Bold" Foreground="#1A1F2C"/>
+                    <TextBlock Text="View and edit your account information" FontSize="16" Foreground="#666666" Margin="0,5,0,0"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+        
+        <!-- Profile Content -->
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+            <Grid Margin="40">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                
+                <!-- Profile Image and Account Actions -->
+                <StackPanel Grid.Column="0" Width="250" Margin="0,0,40,0">
+                    <!-- Profile Image -->
+                    <Border Background="White" CornerRadius="8" Padding="20" 
+                            BorderThickness="1" BorderBrush="#e0e0e0"
+                            Effect="{StaticResource CardShadow}" Margin="0,0,0,20">
+                        <StackPanel>
+                            <Border Width="150" Height="150" CornerRadius="75" 
+                                    Background="#e5deff" Margin="0,0,0,20" 
+                                    HorizontalAlignment="Center">
+                                <TextBlock Text="{Binding CurrentUser.FullName, Converter={StaticResource InitialsConverter}}" 
+                                           FontSize="60" FontWeight="Bold" Foreground="#3b50b2"
+                                           VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </Border>
+                            
+                            <TextBlock Text="{Binding CurrentUser.FullName}" 
+                                       FontSize="18" FontWeight="Bold" 
+                                       Foreground="#1A1F2C" TextWrapping="Wrap"
+                                       HorizontalAlignment="Center"/>
+                            
+                            <TextBlock Text="{Binding CurrentUser.Email}" 
+                                       FontSize="14" Foreground="#666666" 
+                                       HorizontalAlignment="Center" Margin="0,5,0,0"/>
+                        </StackPanel>
+                    </Border>
+                    
+                    <!-- Account Actions -->
+                    <Border Background="White" CornerRadius="8" Padding="20" 
+                            BorderThickness="1" BorderBrush="#e0e0e0"
+                            Effect="{StaticResource CardShadow}">
+                        <StackPanel>
+                            <TextBlock Text="Account Actions" FontWeight="Bold" 
+                                       Foreground="#1A1F2C" Margin="0,0,0,15"/>
+                            
+                            <Button Command="{Binding EditProfileCommand}" 
+                                    Content="Edit Profile"
+                                    Background="#3b50b2" Foreground="White" 
+                                    Padding="0,12" Margin="0,0,0,10"
+                                    Visibility="{Binding IsEditing, Converter={StaticResource BooleanToVisibilityConverter}, ConverterParameter=True}">
+                                <Button.Resources>
+                                    <Style TargetType="{x:Type Border}">
+                                        <Setter Property="CornerRadius" Value="6"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+                            
+                            <Button Command="{Binding ChangePasswordCommand}" 
+                                    Content="Change Password"
+                                    Background="Transparent" Foreground="#3b50b2" 
+                                    BorderBrush="#3b50b2" BorderThickness="1"
+                                    Padding="0,12" Margin="0,0,0,10">
+                                <Button.Resources>
+                                    <Style TargetType="{x:Type Border}">
+                                        <Setter Property="CornerRadius" Value="6"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+                
+                <!-- Profile Information -->
+                <Border Grid.Column="1" Background="White" CornerRadius="8" 
+                        BorderThickness="1" BorderBrush="#e0e0e0" Padding="30"
+                        Effect="{StaticResource CardShadow}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        
+                        <!-- Header -->
+                        <Grid Grid.Row="0" Margin="0,0,0,20">
+                            <TextBlock Text="Profile Information" FontSize="18" 
+                                       FontWeight="Bold" Foreground="#1A1F2C"/>
+                            
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                                <!-- Save Button - Visible in edit mode -->
+                                <Button Command="{Binding SaveProfileCommand}" 
+                                        Content="Save Changes"
+                                        Background="#4CAF50" Foreground="White" 
+                                        Padding="15,8" Margin="0,0,10,0"
+                                        Visibility="{Binding IsEditing, Converter={StaticResource BooleanToVisibilityConverter}}">
+                                    <Button.Resources>
+                                        <Style TargetType="{x:Type Border}">
+                                            <Setter Property="CornerRadius" Value="6"/>
+                                        </Style>
+                                    </Button.Resources>
+                                </Button>
+                                
+                                <!-- Cancel Button - Visible in edit mode -->
+                                <Button Command="{Binding CancelEditCommand}" 
+                                        Content="Cancel"
+                                        Background="Transparent" Foreground="#666666" 
+                                        BorderBrush="#e0e0e0" BorderThickness="1"
+                                        Padding="15,8"
+                                        Visibility="{Binding IsEditing, Converter={StaticResource BooleanToVisibilityConverter}}">
+                                    <Button.Resources>
+                                        <Style TargetType="{x:Type Border}">
+                                            <Setter Property="CornerRadius" Value="6"/>
+                                        </Style>
+                                    </Button.Resources>
+                                </Button>
+                            </StackPanel>
+                        </Grid>
+                        
+                        <!-- Profile Form -->
+                        <StackPanel Grid.Row="1">
+                            <!-- Full Name -->
+                            <StackPanel Margin="0,0,0,20">
+                                <TextBlock Text="Full Name" FontWeight="SemiBold" Foreground="#1A1F2C" Margin="0,0,0,8"/>
+                                <TextBox Text="{Binding EditableUser.FullName, UpdateSourceTrigger=PropertyChanged}" 
+                                         Style="{StaticResource EditableTextBoxStyle}"/>
+                                <TextBlock Style="{StaticResource ErrorTextBlockStyle}">
+                                    <TextBlock.Visibility>
+                                        <MultiBinding Converter="{StaticResource ValidationErrorVisibilityConverter}">
+                                            <Binding Path="ValidationErrors"/>
+                                            <Binding Source="FullName"/>
+                                        </MultiBinding>
+                                    </TextBlock.Visibility>
+                                    <TextBlock.Text>
+                                        <MultiBinding Converter="{StaticResource ValidationErrorConverter}">
+                                            <Binding Path="ValidationErrors"/>
+                                            <Binding Source="FullName"/>
+                                        </MultiBinding>
+                                    </TextBlock.Text>
+                                </TextBlock>
+                            </StackPanel>
+                            
+                            <!-- Email (Read-only) -->
+                            <StackPanel Margin="0,0,0,20">
+                                <TextBlock Text="Email Address" FontWeight="SemiBold" Foreground="#1A1F2C" Margin="0,0,0,8"/>
+                                <TextBox Text="{Binding EditableUser.Email}" IsEnabled="False" 
+                                         Style="{StaticResource EditableTextBoxStyle}" Background="#f8f9fa"/>
+                                <TextBlock Text="Email address cannot be changed" Foreground="#666666" FontSize="12" Margin="0,5,0,0"/>
+                            </StackPanel>
+                            
+                            <!-- Phone Number -->
+                            <StackPanel Margin="0,0,0,20">
+                                <TextBlock Text="Phone Number" FontWeight="SemiBold" Foreground="#1A1F2C" Margin="0,0,0,8"/>
+                                <TextBox Text="{Binding EditableUser.PhoneNumber, UpdateSourceTrigger=PropertyChanged}" 
+                                         Style="{StaticResource EditableTextBoxStyle}"/>
+                                <TextBlock Style="{StaticResource ErrorTextBlockStyle}">
+                                    <TextBlock.Visibility>
+                                        <MultiBinding Converter="{StaticResource ValidationErrorVisibilityConverter}">
+                                            <Binding Path="ValidationErrors"/>
+                                            <Binding Source="PhoneNumber"/>
+                                        </MultiBinding>
+                                    </TextBlock.Visibility>
+                                    <TextBlock.Text>
+                                        <MultiBinding Converter="{StaticResource ValidationErrorConverter}">
+                                            <Binding Path="ValidationErrors"/>
+                                            <Binding Source="PhoneNumber"/>
+                                        </MultiBinding>
+                                    </TextBlock.Text>
+                                </TextBlock>
+                            </StackPanel>
+                            
+                            <!-- Level of Study -->
+                            <StackPanel Margin="0,0,0,20">
+                                <TextBlock Text="Level of Study" FontWeight="SemiBold" Foreground="#1A1F2C" Margin="0,0,0,8"/>
+                                <ComboBox SelectedItem="{Binding EditableUser.LevelOfStudy}" 
+                                          Style="{StaticResource EditableComboBoxStyle}">
+                                    <ComboBoxItem Content="Licence"/>
+                                    <ComboBoxItem Content="Master"/>
+                                    <ComboBoxItem Content="Doctorat"/>
+                                </ComboBox>
+                                <TextBlock Style="{StaticResource ErrorTextBlockStyle}">
+                                    <TextBlock.Visibility>
+                                        <MultiBinding Converter="{StaticResource ValidationErrorVisibilityConverter}">
+                                            <Binding Path="ValidationErrors"/>
+                                            <Binding Source="LevelOfStudy"/>
+                                        </MultiBinding>
+                                    </TextBlock.Visibility>
+                                    <TextBlock.Text>
+                                        <MultiBinding Converter="{StaticResource ValidationErrorConverter}">
+                                            <Binding Path="ValidationErrors"/>
+                                            <Binding Source="LevelOfStudy"/>
+                                        </MultiBinding>
+                                    </TextBlock.Text>
+                                </TextBlock>
+                            </StackPanel>
+                            
+                            <!-- Field of Study -->
+                            <StackPanel Margin="0,0,0,20">
+                                <TextBlock Text="Field of Study" FontWeight="SemiBold" Foreground="#1A1F2C" Margin="0,0,0,8"/>
+                                <TextBox Text="{Binding EditableUser.FieldOfStudy, UpdateSourceTrigger=PropertyChanged}" 
+                                         Style="{StaticResource EditableTextBoxStyle}"/>
+                                <TextBlock Style="{StaticResource ErrorTextBlockStyle}">
+                                    <TextBlock.Visibility>
+                                        <MultiBinding Converter="{StaticResource ValidationErrorVisibilityConverter}">
+                                            <Binding Path="ValidationErrors"/>
+                                            <Binding Source="FieldOfStudy"/>
+                                        </MultiBinding>
+                                    </TextBlock.Visibility>
+                                    <TextBlock.Text>
+                                        <MultiBinding Converter="{StaticResource ValidationErrorConverter}">
+                                            <Binding Path="ValidationErrors"/>
+                                            <Binding Source="FieldOfStudy"/>
+                                        </MultiBinding>
+                                    </TextBlock.Text>
+                                </TextBlock>
+                            </StackPanel>
+                            
+                            <!-- Account Information (Read-only) -->
+                            <Border Background="#f8f9fa" CornerRadius="6" Padding="15" Margin="0,20,0,0">
+                                <StackPanel>
+                                    <TextBlock Text="Account Information" FontWeight="SemiBold" Foreground="#1A1F2C" Margin="0,0,0,10"/>
+                                    
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                        </Grid.RowDefinitions>
+                                        
+                                        <!-- User ID -->
+                                        <TextBlock Grid.Row="0" Grid.Column="0" Text="User ID:" Foreground="#666666" Margin="0,0,10,5"/>
+                                        <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding CurrentUser.Id}" Foreground="#333333" Margin="0,0,0,5"/>
+                                        
+                                        <!-- Account Created -->
+                                        <TextBlock Grid.Row="1" Grid.Column="0" Text="Account Created:" Foreground="#666666" Margin="0,0,10,5"/>
+                                        <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding CurrentUser.CreatedAt, StringFormat='{}{0:MMMM dd, yyyy}'}" Foreground="#333333" Margin="0,0,0,5"/>
+                                        
+                                        <!-- Last Updated -->
+                                        <TextBlock Grid.Row="2" Grid.Column="0" Text="Last Updated:" Foreground="#666666" Margin="0,0,10,5"/>
+                                        <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding CurrentUser.UpdatedAt, StringFormat='{}{0:MMMM dd, yyyy}'}" Foreground="#333333" Margin="0,0,0,5"/>
+                                    </Grid>
+                                </StackPanel>
+                            </Border>
+                        </StackPanel>
+                    </Grid>
+                </Border>
+                
+                <!-- Loading Overlay -->
+                <Border Grid.Column="1" Background="#80FFFFFF" 
+                        Visibility="{Binding IsSaving, Converter={StaticResource BooleanToVisibilityConverter}}">
+                    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="Saving changes..." FontSize="16" HorizontalAlignment="Center"/>
+                        <ProgressBar IsIndeterminate="True" Width="200" Height="4" Margin="0,10,0,0"/>
+                    </StackPanel>
+                </Border>
+            </Grid>
+        </ScrollViewer>
+    </Grid>
+</Page> 

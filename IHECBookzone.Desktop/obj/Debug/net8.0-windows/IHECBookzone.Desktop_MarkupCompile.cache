@@ -1,0 +1,20 @@
+﻿IHECBookzone.Desktop
+
+
+winexe
+C#
+.cs
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\
+IHECBookzone.Desktop
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\App.xaml
+15-781229573
+
+541097255436
+210-2017528085
+Controls\NotificationCenter.xaml;Controls\NotificationControl.xaml;MainWindow.xaml;Views\BorrowingsPage.xaml;Views\DeleteBorrowingPage.xaml;Views\Pages\AccessDeniedPage.xaml;Views\Pages\AdminDashboardPage.xaml;Views\Pages\AdminLoginPage.xaml;Views\Pages\BookDetailsPage.xaml;Views\Pages\HomePage.xaml;Views\Pages\LibraryPage.xaml;Views\Pages\LoginPage.xaml;Views\Pages\ProfilePage.xaml;Views\Pages\RegisterPage.xaml;Views\Pages\RoleSelectionPage.xaml;
+
+False
+

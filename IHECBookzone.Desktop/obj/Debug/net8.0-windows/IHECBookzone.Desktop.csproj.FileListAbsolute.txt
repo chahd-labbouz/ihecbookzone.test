@@ -1,0 +1,110 @@
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\bin\Debug\net8.0-windows\IHECBookzone.Desktop.exe
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\bin\Debug\net8.0-windows\IHECBookzone.Desktop.deps.json
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\bin\Debug\net8.0-windows\IHECBookzone.Desktop.runtimeconfig.json
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\bin\Debug\net8.0-windows\IHECBookzone.Desktop.dll
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\bin\Debug\net8.0-windows\IHECBookzone.Desktop.pdb
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\bin\Debug\net8.0-windows\FontAwesome.Sharp.dll
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\IHECBookzone.Desktop.csproj.AssemblyReference.cache
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Controls\NotificationCenter.g.cs
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Controls\NotificationControl.g.cs
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\BorrowingsPage.g.cs
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\DeleteBorrowingPage.g.cs
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\AccessDeniedPage.g.cs
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\AdminDashboardPage.g.cs
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\AdminLoginPage.g.cs
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\BookDetailsPage.g.cs
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\HomePage.g.cs
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\LibraryPage.g.cs
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\LoginPage.g.cs
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\ProfilePage.g.cs
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\RegisterPage.g.cs
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\RoleSelectionPage.g.cs
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\App.g.cs
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\IHECBookzone.Desktop_MarkupCompile.cache
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\IHECBookzone.Desktop_MarkupCompile.lref
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\App.baml
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Controls\NotificationCenter.baml
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Controls\NotificationControl.baml
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\MainWindow.baml
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\BorrowingsPage.baml
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\DeleteBorrowingPage.baml
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\AccessDeniedPage.baml
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\AdminDashboardPage.baml
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\AdminLoginPage.baml
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\BookDetailsPage.baml
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\HomePage.baml
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\LibraryPage.baml
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\LoginPage.baml
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\ProfilePage.baml
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\RegisterPage.baml
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\RoleSelectionPage.baml
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\IHECBookzone.Desktop.g.resources
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\IHECBookzone.Desktop.GeneratedMSBuildEditorConfig.editorconfig
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\IHECBookzone.Desktop.AssemblyInfoInputs.cache
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\IHECBookzone.Desktop.AssemblyInfo.cs
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\IHECBookzone.Desktop.csproj.CoreCompileInputs.cache
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\IHECBook.4C65BBC4.Up2Date
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\IHECBookzone.Desktop.dll
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\refint\IHECBookzone.Desktop.dll
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\IHECBookzone.Desktop.pdb
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\IHECBookzone.Desktop.genruntimeconfig.cache
+D:\hamboula\ihec-bookzone-connect-main\ihec-bookzone-connect-main\IHECBookzone.Desktop\obj\Debug\net8.0-windows\ref\IHECBookzone.Desktop.dll
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\bin\Debug\net8.0-windows\IHECBookzone.Desktop.exe
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\bin\Debug\net8.0-windows\IHECBookzone.Desktop.deps.json
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\bin\Debug\net8.0-windows\IHECBookzone.Desktop.runtimeconfig.json
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\bin\Debug\net8.0-windows\IHECBookzone.Desktop.dll
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\bin\Debug\net8.0-windows\IHECBookzone.Desktop.pdb
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\bin\Debug\net8.0-windows\FontAwesome.Sharp.dll
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\IHECBookzone.Desktop.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Controls\NotificationCenter.g.cs
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Controls\NotificationControl.g.cs
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\BorrowingsPage.g.cs
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\DeleteBorrowingPage.g.cs
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\AccessDeniedPage.g.cs
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\AdminDashboardPage.g.cs
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\AdminLoginPage.g.cs
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\BookDetailsPage.g.cs
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\HomePage.g.cs
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\LibraryPage.g.cs
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\LoginPage.g.cs
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\ProfilePage.g.cs
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\RegisterPage.g.cs
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\RoleSelectionPage.g.cs
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\IHECBookzone.Desktop_MarkupCompile.cache
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\IHECBookzone.Desktop_MarkupCompile.lref
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\App.baml
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Controls\NotificationCenter.baml
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Controls\NotificationControl.baml
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\BorrowingsPage.baml
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\DeleteBorrowingPage.baml
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\AccessDeniedPage.baml
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\AdminDashboardPage.baml
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\AdminLoginPage.baml
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\BookDetailsPage.baml
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\HomePage.baml
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\LibraryPage.baml
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\LoginPage.baml
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\ProfilePage.baml
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\RegisterPage.baml
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\Views\Pages\RoleSelectionPage.baml
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\IHECBookzone.Desktop.g.resources
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\IHECBookzone.Desktop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\IHECBookzone.Desktop.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\IHECBookzone.Desktop.AssemblyInfo.cs
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\IHECBookzone.Desktop.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\IHECBook.4C65BBC4.Up2Date
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\IHECBookzone.Desktop.dll
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\refint\IHECBookzone.Desktop.dll
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\IHECBookzone.Desktop.pdb
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\IHECBookzone.Desktop.genruntimeconfig.cache
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\ref\IHECBookzone.Desktop.dll
