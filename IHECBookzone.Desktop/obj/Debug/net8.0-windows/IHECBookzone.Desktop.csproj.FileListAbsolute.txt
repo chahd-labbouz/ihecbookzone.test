@@ -108,3 +108,4 @@ C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master
 C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\IHECBookzone.Desktop.pdb
 C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\IHECBookzone.Desktop.genruntimeconfig.cache
 C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\ref\IHECBookzone.Desktop.dll
+C:\Users\user\Desktop\Hamboula chawech\Ihec-hamboula-master\Ihec-hamboula-master\IHECBookzone.Desktop\obj\Debug\net8.0-windows\IHECBookzone.Desktop.sourcelink.json

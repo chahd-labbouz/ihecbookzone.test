@@ -23,8 +23,6 @@ namespace IHECBookzone.Desktop.Views.Pages
                 InitializeComponent();
                 _authService = authService;
                 _navigationService = navigationService;
-
-                System.Windows.MessageBox.Show("RoleSelectionPage loaded");
             }
             catch (Exception ex)
             {

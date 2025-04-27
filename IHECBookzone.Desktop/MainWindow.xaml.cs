@@ -18,7 +18,7 @@ namespace IHECBookzone.Desktop
         private readonly BookService _bookService;
         private readonly INavigationService _navigationService;
         
-        public string CurrentPageTag { get; set; } = "Home";
+        public string CurrentPageTag { get; set; } = "RoleSelection";
         public bool IsAuthenticated => _authService.IsAuthenticated;
         public bool IsAdmin => _authService.IsAuthenticated && _authService.CurrentUser.IsAdmin;
         public User CurrentUser => _authService.CurrentUser;
@@ -46,16 +46,13 @@ namespace IHECBookzone.Desktop
             }
             
             // Force navigation to RoleSelection page first
-            System.Windows.MessageBox.Show("Navigating to RoleSelectionPage...");
             var result = _navigationService.NavigateTo("RoleSelection");
-            System.Windows.MessageBox.Show("Navigation to RoleSelectionPage returned: " + result);
             if (!result)
             {
                 System.Windows.MessageBox.Show("Failed to navigate to RoleSelectionPage. Please check your dependency injection and page registration.", "Navigation Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 // Prevent further navigation attempts if this fails
                 return;
             }
-            // TODO: Remove debug message boxes after fixing the startup navigation issue.
         }
 
         private void NavigationButton_Checked(object sender, RoutedEventArgs e)
